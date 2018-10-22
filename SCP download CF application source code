@@ -1,6 +1,17 @@
-Set API endpoint : cf api https://api.cf.eu10.hana.ondemand.com
-Login : cf login (then enter your credentials)
+Set API endpoint : 
+cf api https://api.cf.eu10.hana.ondemand.com
+
+Login : 
+cf login (then enter your credentials)
+
+List applications : 
 cf apps (will give you the list of deployed application)
+
+Get application UUID : 
 cf app <app_name> --guid
+
+Download  application : 
 cf curl /v2/apps/<guid>/download > content.gz
-Open content with 7zip (https://downloads.sourceforge.net/project/portableapps/7-Zip%20Portable/7-ZipPortable_18.05.paf.exe?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fportableapps%2Ffiles%2F7-Zip%2520Portable%2F7-ZipPortable_18.05.paf.exe%2Fdownload%3Fuse_mirror%3Dnetix&ts=1540201755)
+
+Open content with 7zip :
+https://downloads.sourceforge.net/project/portableapps/7-Zip%20Portable/7-ZipPortable_18.05.paf.exe?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fportableapps%2Ffiles%2F7-Zip%2520Portable%2F7-ZipPortable_18.05.paf.exe%2Fdownload%3Fuse_mirror%3Dnetix&ts=1540201755)
