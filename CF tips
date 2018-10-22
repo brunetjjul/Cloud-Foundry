@@ -1,5 +1,6 @@
 CF CLI configuration file (config.json):
 ----------------------------------------
 When installing cf cli, it will stores a configuration file & pluggins(if you install some) in the "NetHome" folder (environment variable)
-based on HOMEDRIVE and HOMEPATH environment variables. You can get the list of environment variables through SET command then change some 
-through SET <variable>=<value>
+based on HOMEDRIVE and HOMEPATH environment variables. 
+You can get the list of environment variables through SET command.
+You can change some variable through : SET <variable>=<value>
