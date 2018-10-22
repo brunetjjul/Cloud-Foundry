@@ -1,0 +1,8 @@
+cf api https://api.cf.eu10.hana.ondemand.com
+cf login (then enter credentials)
+cf push (from your source code folder, containing a manifest.yml file ( see https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html) )
+
+Content of the minimal application descriptor file:
+---
+applications:
+- name: my-app
