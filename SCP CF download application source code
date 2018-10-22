@@ -10,7 +10,7 @@ cf apps (will give you the list of deployed application)
 Get application UUID : 
 cf app <app_name> --guid
 
-Download  application : 
+Download  application (!!! the application must be running!!!): 
 cf curl /v2/apps/<guid>/download > content.gz
 
 Open content with 7zip :
